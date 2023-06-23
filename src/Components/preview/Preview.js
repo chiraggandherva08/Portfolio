@@ -12,7 +12,7 @@ const Preview = () => {
       <div className="preview-container">
 
         <div className="cross-preview-tab">
-          <img src={crossIcon} onClick={() => {removePreview()}} />
+          <img src={crossIcon} alt="cross-btn" onClick={() => {removePreview()}} />
         </div>
 
         <h1 className="preview-heading">
@@ -20,7 +20,7 @@ const Preview = () => {
         </h1>
         
         <div className="image-preview">
-          <img src="./preview-images/none.png" />
+          <img alt="project_image" src="./preview-images/none.png" />
         </div>
       </div>
     </div>

@@ -8,7 +8,7 @@ const Blog = () => {
     <div className="go-to-blog-section" id="blog">
       <div className="blog">
         <div className="image-blog">
-          <img src={BlogImage} alt="blog-image" />
+          <img src={BlogImage} alt="blog_image" />
         </div>
 
         <ul className="about-blog">
@@ -21,7 +21,7 @@ const Blog = () => {
           })}
 
           <div className="go-to-link">
-            <a href="#">Visit blogs</a>
+            <a href="/">Visit blogs</a>
           </div>
         </ul>
       </div>

@@ -5,7 +5,7 @@ import TestimonialData from "./TestimonialData";
 const CurrentTestimonial = ({ Data_ }) => {
   return (
     <div className="testimonial">
-      <img className="testimonial-picture" src={Data_.profilePic} />
+      <img className="testimonial-picture" alt="user_image" src={Data_.profilePic} />
       <p className="testimonial-message">{Data_.message}</p>
       <h3 className="person-name">{Data_.name}</h3>
     </div>

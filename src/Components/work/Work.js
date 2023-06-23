@@ -9,10 +9,10 @@ const Work = () => {
   const changeData = (e) => {
     const innerTXT = e.target.innerText;
     const newData = Data.filter((currentData) => {
-      return currentData[0] == innerTXT;
+      return currentData[0] === innerTXT;
     });
 
-    if (newData[0][1].length == 0) {
+    if (newData[0][1].length === 0) {
       document.querySelector(
         ".projects-list"
       ).style.backgroundImage = `url(${nothingFoundImg})`;
@@ -63,7 +63,7 @@ const Work = () => {
                 <li className="project-item" key={index}>
                   <p className="project-title">{currentProject[0]}</p>
                   <div className="project-link">
-                    <a href={currentProject[1]} target="_blank">
+                    <a href={currentProject[1]} rel="noreferrer" target="_blank">
                       Open
                     </a>
                   </div>

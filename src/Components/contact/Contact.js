@@ -25,7 +25,7 @@ const Contact = () => {
             return (
               <li className="contact-link-item" key={index}>
                 <img className="contact-img" src={disc[0]} alt="icon" />
-                <a className="contact-disc" target="_blank" href={disc[2]}>
+                <a className="contact-disc" rel="noreferrer" target="_blank" href={disc[2]}>
                   {disc[1]}
                 </a>
               </li>

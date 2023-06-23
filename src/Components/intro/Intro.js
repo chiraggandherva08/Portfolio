@@ -22,7 +22,7 @@ const Intro = () => {
         <img
           className="profile-picture-img"
           src={profilePic}
-          alt="profile picture"
+          alt="profile_picture"
         />
       </div>
     </div>

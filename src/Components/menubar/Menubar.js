@@ -25,7 +25,7 @@ const Menubar = () => {
     <nav className="menubar">
       <ul className="menulist">
         <li className="logo">
-          <img src={braces} /> {menuInfo.logo}
+          <img src={braces} alt="logo" /> {menuInfo.logo}
         </li>
       </ul>
 
